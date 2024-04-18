@@ -1,5 +1,5 @@
 {
-  "name": "Movie-gpt",
+  "name": "moviegpt",
   "private": true,
   "scripts": {
     "build": "turbo build",
