@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "exports": {
+"./side-panel": "./src/side-panel.tsx",
     "./header": "./src/header.tsx",
     "./navbar": "./src/navbar.tsx",
     "./button": "./src/button.tsx",

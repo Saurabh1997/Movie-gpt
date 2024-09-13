@@ -8,7 +8,7 @@ type props = {
   options: option[];
 };
 
-export function Navbar({ options }: props) {
+export const Navbar = ({ options }: props) => {
   const nav_menu = options.map((menu) => {
     return (
       <li key={menu?.displayName} className={``}>
@@ -28,4 +28,4 @@ export function Navbar({ options }: props) {
       </nav>
     </div>
   );
-}
+};
